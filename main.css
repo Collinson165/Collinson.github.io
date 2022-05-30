@@ -1,0 +1,59 @@
+@font-face {
+    font-family: MyWebFontLato;
+    src: url(Assets/fonts/Lato-Font/Lato2OFL/Lato-Black.ttf) format("ttf"),
+    url(Assets/fonts/Lato-Font/Lato2OFL/Lato-Bold.ttf) format("ttf"),
+    url(Assets/fonts/Lato-Font/Lato2OFL/Lato-Regular.ttf) format("ttf"),
+    url(Assets/fonts/Lato-Font/Lato2OFL/Lato-Light.ttf) format("ttf");
+    font-display: block;
+}
+
+@font-face {
+    font-family: MyWebFontCardo;
+    src: url(Assets/fonts/Cardo/Cardo/Cardo-Bold.ttf) format("ttf"),
+    url(Assets/fonts/Cardo/Cardo/Cardo-Italic.ttf) format("ttf"),
+    url(Assets/fonts/Cardo/Cardo/Cardo-Regular.ttf) format("ttf");
+    font-display: block;
+}
+
+
+
+
+body, html {
+    background-image: url(assets/Background.jpg);
+    background-repeat: none;
+    font-family: MyWebFontLato, lato, montserrat, Arial, Helvetica, sans-serif;
+}
+
+footer li {
+    list-style: none;
+    line-height: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:MyWebFontCardo, cardo, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.carousel-center {
+    top: 5rem
+}
+
+.carousel-back {
+    background-image: url(assets/picture-6.jpg);
+    background-size: cover;
+}
+
