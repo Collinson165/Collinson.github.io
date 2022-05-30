@@ -19,7 +19,7 @@
 
 
 body, html {
-    background-image: url(assets/Background.jpg);
+    background-image: url(Assets/Background.jpg);
     background-repeat: none;
     font-family: MyWebFontLato, lato, montserrat, Arial, Helvetica, sans-serif;
 }
@@ -53,7 +53,7 @@ h2 {
 }
 
 .carousel-back {
-    background-image: url(assets/picture-6.jpg);
+    background-image: url(Assets/picture-6.jpg);
     background-size: cover;
 }
 
